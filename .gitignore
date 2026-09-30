@@ -1,0 +1,10 @@
+AGENTS.md
+.codex/
+.wrangler/
+.DS_Store
+.dev.vars
+.env
+.env.*
+node_modules/
+.test-tmp/
+*.log

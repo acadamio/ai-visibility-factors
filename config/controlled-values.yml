@@ -1,0 +1,30 @@
+category:
+  - Technical
+  - Content
+  - Authority & External Signals
+
+impact:
+  - High
+  - Medium
+  - Low
+  - None
+  - Unknown
+
+influences:
+  - Discovery & Crawling
+  - Understanding & Retrieval
+  - Mention & Recommendation
+
+proof:
+  - High
+  - Medium
+  - Low
+
+consensus:
+  - Strong
+  - Mixed
+  - Contested
+
+status:
+  - Hidden
+  - Published
