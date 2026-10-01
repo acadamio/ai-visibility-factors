@@ -4,7 +4,9 @@ Contributions to AI Visibility Factors are welcome through discussions or issues
 
 You can suggest a new factor, challenge an assessment, provide stronger or newer evidence, correct inaccuracies, improve explanations, or propose a translation. Only propose a new factor with None or Unknown impact if it is widely discussed or commonly misrepresented, and documenting it would help clarify the available evidence and limitations.
 
-For a factor, copy `factors/en/_template.md` to a descriptive Markdown filename and follow [the factor format](docs/factor-format.md). New drafts normally use `status: Hidden` pending review. Only reviewed factors marked `Published` are published.
+**[💡 Suggest a factor](https://github.com/acadamio/ai-visibility-factors/issues/new?title=Factor%20suggestion%3A%20) · [🔎 Add evidence](https://github.com/acadamio/ai-visibility-factors/issues/new?title=Additional%20evidence%3A%20)**
+
+For a new factor, copy `factors/en/_template.md` to a descriptive Markdown filename and follow [the factor format](docs/factor-format.md). New drafts normally use `status: Hidden` pending review. Only reviewed factors marked `Published` are published.
 
 Changes to assessments should include supporting evidence. Link sources alongside the claims they support, prefer primary sources, and explain uncertainty or credible disagreement. Impact, evidence strength, and consensus are distinct assessments.
 

@@ -1,12 +1,20 @@
 # AI Visibility Factors
 
+![Static Badge](https://img.shields.io/badge/Contributions-Welcome-informational) ![Static Badge](https://img.shields.io/badge/Factors-60-orange) ![Static Badge](https://img.shields.io/badge/License-CC_BY_4.0-lightgray)
+
 An open, evidence-based catalog of factors that may influence how websites and content are discovered, accessed, understood, retrieved, mentioned, cited, or recommended by AI systems.
+
+Use it for Audits · Research · Internal tools · AI visibility platforms · Educational content.
+
+**[🌐 Explore the catalog](https://www.aivisibilityfactors.com/) · [⭐ Star the project](https://github.com/acadamio/ai-visibility-factors) · [💡 Suggest or challenge a factor](https://github.com/acadamio/ai-visibility-factors/blob/main/CONTRIBUTING.md)**
 
 Individual Markdown files in `factors/{language}/` are the canonical source. Translations share stable factor IDs. Controlled values live in `config/controlled-values.yml`; required editorial headings live in `config/sections/{language}.json`.
 
 This repository contains the catalog, its format documentation and its validation/export tools.
 
 ## Development
+
+These requirements are only needed if you want to build a list of factors.
 
 Requires Node.js 22 or later. No website installation is needed to read or reuse the Markdown factors.
 
