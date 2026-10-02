@@ -5,6 +5,7 @@ slug: contenu-original-et-non-generique
 factor: Contenu original et non générique
 subtitle: Un contenu original et non générique influence-t-il la visibilité dans les IA ?
 category: Content
+subcategory: Evidence & Originality
 impact: High
 influences:
   - Understanding & Retrieval

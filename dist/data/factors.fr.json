@@ -6,6 +6,7 @@
     "factor": "Accessibilité publique des contenus",
     "subtitle": "L’accessibilité publique des contenus influence-t-elle la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Crawler Access & Directives",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -26,6 +27,7 @@
     "factor": "Accessibilité réseau pour les robots IA",
     "subtitle": "L’accessibilité réseau pour les robots IA influence-t-elle la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Crawler Access & Directives",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -46,6 +48,7 @@
     "factor": "Actualité du contenu et transparence des dates",
     "subtitle": "L’actualité du contenu et la transparence des dates influencent-elles la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Accuracy & Maintenance",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -65,6 +68,7 @@
     "factor": "Annuaires sectoriels et listes d’entreprise",
     "subtitle": "Les annuaires sectoriels et les listes d’entreprises influencent-ils la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Entity & Business Profiles",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling",
@@ -84,6 +88,7 @@
     "factor": "Avis de tiers et plateformes de réputation",
     "subtitle": "Les avis tiers et les plateformes de réputation influencent-ils la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Expertise & Reputation",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -103,6 +108,7 @@
     "factor": "Backlinks",
     "subtitle": "Les backlinks influencent-ils la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Earned Mentions & Links",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling",
@@ -122,6 +128,7 @@
     "factor": "Canonicalisation et gestion des doublons",
     "subtitle": "La canonicalisation et la gestion des doublons influencent-elles la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Page Metadata & URL Signals",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling",
@@ -141,6 +148,7 @@
     "factor": "Citation des sources",
     "subtitle": "Les citations de sources influencent-elles la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Evidence & Originality",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -160,6 +168,7 @@
     "factor": "Clarté des entités et de la terminologie",
     "subtitle": "La clarté des entités et de la terminologie influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Structure & Clarity",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -178,6 +187,7 @@
     "factor": "Clarté et extractibilité des passages",
     "subtitle": "La clarté et l’extractibilité des passages influencent-elles la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Answer Quality & Relevance",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -196,6 +206,7 @@
     "factor": "Cohérence du contenu",
     "subtitle": "La cohérence du contenu influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Accuracy & Maintenance",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -215,6 +226,7 @@
     "factor": "Content Signals (search, ai-input, ai-train)",
     "subtitle": "Les Content Signals (search, ai-input, ai-train) influencent-ils la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "AI & Agent Protocols",
     "impact": "Unknown",
     "influences": [
       "Discovery & Crawling",
@@ -234,6 +246,7 @@
     "factor": "Contenu original et non générique",
     "subtitle": "Un contenu original et non générique influence-t-il la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Evidence & Originality",
     "impact": "High",
     "influences": [
       "Understanding & Retrieval",
@@ -253,6 +266,7 @@
     "factor": "Contenu textuel accessible au rendu",
     "subtitle": "L'accessibilité du contenu texte au rendu influence-t-elle la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Rendering & Technical Quality",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -272,6 +286,7 @@
     "factor": "Contenus comparatifs",
     "subtitle": "Les contenus comparatifs influencent-t-ils la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Types & Coverage",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -291,6 +306,7 @@
     "factor": "Contenus et transcriptions YouTube",
     "subtitle": "Le contenu et les transcriptions YouTube influencent-ils la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Community & Channel Presence",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling",
@@ -310,6 +326,7 @@
     "factor": "Contenu sur les cas d’usage",
     "subtitle": "Les cas d'usage influencent-t-ils la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Types & Coverage",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -329,6 +346,7 @@
     "factor": "Contributions et interventions d’experts sur des plateformes externes",
     "subtitle": "Les contributions et apparitions d’experts externes influencent-elles la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Expertise & Reputation",
     "impact": "Low",
     "influences": [
       "Discovery & Crawling",
@@ -348,6 +366,7 @@
     "factor": "Contrôles des extraits et de la réutilisation du contenu",
     "subtitle": "Les contrôles de réutilisation des extraits et du contenu influencent-ils la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Crawler Access & Directives",
     "impact": "High",
     "influences": [
       "Understanding & Retrieval",
@@ -367,6 +386,7 @@
     "factor": "Directives d’indexabilité",
     "subtitle": "Les directives d’indexabilité influencent-elles la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Discovery & Indexing",
     "impact": "High",
     "influences": [
       "Understanding & Retrieval",
@@ -386,6 +406,7 @@
     "factor": "Directives dédiées aux robots IA dans robots.txt",
     "subtitle": "Des règles dédiées aux robots d'exploration d'IA influencent-elles la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Crawler Access & Directives",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -406,6 +427,7 @@
     "factor": "Données originales et preuves quantitatives",
     "subtitle": "Les données originales et les preuves quantitatives influencent-elles la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Evidence & Originality",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -425,6 +447,7 @@
     "factor": "Données structurées",
     "subtitle": "Les données structurées influencent-elles la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Structured & Semantic Data",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -443,6 +466,7 @@
     "factor": "Équivalents textuels des contenus multimédias",
     "subtitle": "Les équivalents textuels des contenus multimédia influencent-ils la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Structure & Clarity",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -461,6 +485,7 @@
     "factor": "Ergonomie mobile",
     "subtitle": "L’ergonomie mobile influence-t-elle la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Rendering & Technical Quality",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -480,6 +505,7 @@
     "factor": "Études de cas",
     "subtitle": "Les études de cas influencent-elles la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Types & Coverage",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -499,6 +525,7 @@
     "factor": "Exactitude et cohérence des données structurées",
     "subtitle": "L’exactitude et la cohérence des données structurées influencent-elles la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Structured & Semantic Data",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -517,6 +544,7 @@
     "factor": "Exactitude factuelle",
     "subtitle": "L’exactitude des contenus influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Accuracy & Maintenance",
     "impact": "High",
     "influences": [
       "Understanding & Retrieval",
@@ -536,6 +564,7 @@
     "factor": "Exhaustivité des informations sur les produits et services",
     "subtitle": "L’exhaustivité des informations sur les produits/services influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Types & Coverage",
     "impact": "High",
     "influences": [
       "Understanding & Retrieval",
@@ -555,6 +584,7 @@
     "factor": "Exhaustivité et profondeur du contenu",
     "subtitle": "L’exhaustivité et la profondeur du contenu influencent-elles la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Answer Quality & Relevance",
     "impact": "High",
     "influences": [
       "Understanding & Retrieval",
@@ -574,6 +604,7 @@
     "factor": "Expérience de première main",
     "subtitle": "L’expérience directe influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Evidence & Originality",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -593,6 +624,7 @@
     "factor": "FAQ et structure questions-réponses",
     "subtitle": "La structure FAQ (questions-réponses) influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Types & Coverage",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -611,6 +643,7 @@
     "factor": "Fiabilité technique et bon fonctionnement HTTP",
     "subtitle": "La fiabilité technique et la santé HTTP influencent-elles la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Rendering & Technical Quality",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -630,6 +663,7 @@
     "factor": "Formatage des données pour leur lecture par les machines",
     "subtitle": "Le formatage des données lisibles par machine influence-t-il la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Structured & Semantic Data",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -648,6 +682,7 @@
     "factor": "HTML sémantique",
     "subtitle": "Le HTML sémantique influence-t-il la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Structured & Semantic Data",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -666,6 +701,7 @@
     "factor": "HTTPS",
     "subtitle": "Le HTTPS influence-t-il la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Rendering & Technical Quality",
     "impact": "Low",
     "influences": [
       "Discovery & Crawling",
@@ -685,6 +721,7 @@
     "factor": "IndexNow",
     "subtitle": "IndexNow influence-t-il la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Discovery & Indexing",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling"
@@ -703,6 +740,7 @@
     "factor": "Listes et tableaux",
     "subtitle": "Les listes et les tableaux influencent-ils la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Structure & Clarity",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -721,6 +759,7 @@
     "factor": "llms.txt",
     "subtitle": "Le fichier llms.txt influence-t-il la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "AI & Agent Protocols",
     "impact": "Low",
     "influences": [
       "Discovery & Crawling",
@@ -740,6 +779,7 @@
     "factor": "Maillage interne et architecture du site",
     "subtitle": "Les liens internes et l’architecture du site influencent-ils la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Discovery & Indexing",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -759,6 +799,7 @@
     "factor": "Markdown pour Agents",
     "subtitle": "Le Markdown pour les agents influence-t-il la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "AI & Agent Protocols",
     "impact": "Low",
     "influences": [
       "Understanding & Retrieval"
@@ -777,6 +818,7 @@
     "factor": "Mentions de la marque par des tiers",
     "subtitle": "Les mentions de marques par des tiers influencent-elles la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Earned Mentions & Links",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -796,6 +838,7 @@
     "factor": "Mentions par les analystes du secteur",
     "subtitle": "Les mentions des analystes du secteur influencent-elles la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Earned Mentions & Links",
     "impact": "Low",
     "influences": [
       "Understanding & Retrieval",
@@ -815,6 +858,7 @@
     "factor": "Métadonnées Open Graph",
     "subtitle": "Les métadonnées Open Graph influencent-elles la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Page Metadata & URL Signals",
     "impact": "Low",
     "influences": [
       "Understanding & Retrieval"
@@ -833,6 +877,7 @@
     "factor": "Pertinence et adéquation avec l’intention de recherche",
     "subtitle": "La pertinence et l’adéquation avec l’intention de recherche influencent-elles la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Answer Quality & Relevance",
     "impact": "High",
     "influences": [
       "Understanding & Retrieval",
@@ -852,6 +897,7 @@
     "factor": "Présence et activité sur les principaux réseaux sociaux",
     "subtitle": "La présence et l’activité sur les principaux réseaux sociaux influencent-elles la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Community & Channel Presence",
     "impact": "Low",
     "influences": [
       "Discovery & Crawling",
@@ -871,6 +917,7 @@
     "factor": "Présence et contenus de l’entreprise sur LinkedIn",
     "subtitle": "La présence et les contenus de l’entreprise sur LinkedIn influencent-ils la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Entity & Business Profiles",
     "impact": "Low",
     "influences": [
       "Understanding & Retrieval",
@@ -890,6 +937,7 @@
     "factor": "Présence sur les forums et dans les communautés",
     "subtitle": "La présence sur les forums et les communautés influence-t-elle la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Community & Channel Presence",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -909,6 +957,7 @@
     "factor": "Présence sur Wikipédia et Wikidata",
     "subtitle": "La présence sur Wikipédia et Wikidata influence-t-elle la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Entity & Business Profiles",
     "impact": "Low",
     "influences": [
       "Understanding & Retrieval"
@@ -927,6 +976,7 @@
     "factor": "Profondeur d’exploration et accessibilité des pages clés",
     "subtitle": "La profondeur d'exploration affecte-t-elle l'accessibilité des pages clés pour la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Discovery & Indexing",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling"
@@ -945,6 +995,7 @@
     "factor": "Qualité des réponses directes",
     "subtitle": "La qualité des réponses directes influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Answer Quality & Relevance",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -963,6 +1014,7 @@
     "factor": "Qualité du plan de site XML",
     "subtitle": "La qualité du plan de site XML influence-t-elle la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Discovery & Indexing",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling"
@@ -981,6 +1033,7 @@
     "factor": "Relations presse et couverture éditoriale",
     "subtitle": "Les relations presse et la couverture éditoriale influencent-elles la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Earned Mentions & Links",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling",
@@ -1001,6 +1054,7 @@
     "factor": "robots.txt",
     "subtitle": "Un fichier robots.txt manquant, inaccessible ou restrictif peut-il affecter l'accès des robots d'exploration IA ?",
     "category": "Technical",
+    "subcategory": "Crawler Access & Directives",
     "impact": "High",
     "influences": [
       "Discovery & Crawling",
@@ -1021,6 +1075,7 @@
     "factor": "Slugs d’URL descriptifs",
     "subtitle": "Les slugs d’URL descriptifs influencent-ils la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Page Metadata & URL Signals",
     "impact": "Low",
     "influences": [
       "Understanding & Retrieval"
@@ -1039,6 +1094,7 @@
     "factor": "Structure des titres",
     "subtitle": "La structure des titres influence-t-elle la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Content Structure & Clarity",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval"
@@ -1057,6 +1113,7 @@
     "factor": "Témoignages et preuves clients",
     "subtitle": "Les témoignages et preuves clients influencent-ils la visibilité dans les IA ?",
     "category": "Content",
+    "subcategory": "Evidence & Originality",
     "impact": "Low",
     "influences": [
       "Understanding & Retrieval",
@@ -1076,6 +1133,7 @@
     "factor": "Titre de page et meta description",
     "subtitle": "Le titre de la page et la méta description influencent-ils la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Page Metadata & URL Signals",
     "impact": "Medium",
     "influences": [
       "Discovery & Crawling",
@@ -1095,6 +1153,7 @@
     "factor": "Transparence et expertise des éditeurs et des auteurs",
     "subtitle": "La transparence/expertise des éditeurs et des auteurs influence-t-elle la visibilité dans les IA ?",
     "category": "Authority & External Signals",
+    "subcategory": "Expertise & Reputation",
     "impact": "Medium",
     "influences": [
       "Understanding & Retrieval",
@@ -1114,6 +1173,7 @@
     "factor": "Vitesse des pages et Core Web Vitals",
     "subtitle": "La vitesse des pages et les Core Web Vitals influencent-ils la visibilité dans les IA ?",
     "category": "Technical",
+    "subcategory": "Rendering & Technical Quality",
     "impact": "Medium",
     "influences": [
       "Mention & Recommendation"

@@ -7,6 +7,7 @@ factor: Wikipedia / Wikidata presence
 subtitle: Does Wikipedia / Wikidata presence influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Entity & Business Profiles
 impact: Low
 influences:
   - Understanding & Retrieval

@@ -5,6 +5,7 @@ slug: coherence-du-contenu
 factor: Cohérence du contenu
 subtitle: La cohérence du contenu influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Accuracy & Maintenance
 impact: Medium
 influences:
   - Understanding & Retrieval

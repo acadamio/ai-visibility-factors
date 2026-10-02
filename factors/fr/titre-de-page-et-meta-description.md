@@ -5,6 +5,7 @@ slug: titre-de-page-et-meta-description
 factor: Titre de page et meta description
 subtitle: Le titre de la page et la méta description influencent-ils la visibilité dans les IA ?
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Medium
 influences:
   - Discovery & Crawling

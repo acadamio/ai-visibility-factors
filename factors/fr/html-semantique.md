@@ -5,6 +5,7 @@ slug: html-semantique
 factor: HTML sémantique
 subtitle: Le HTML sémantique influence-t-il la visibilité dans les IA ?
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

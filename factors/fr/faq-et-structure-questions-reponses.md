@@ -5,6 +5,7 @@ slug: faq-et-structure-questions-reponses
 factor: FAQ et structure questions-réponses
 subtitle: La structure FAQ (questions-réponses) influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

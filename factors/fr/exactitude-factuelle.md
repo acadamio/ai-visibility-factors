@@ -5,6 +5,7 @@ slug: exactitude-factuelle
 factor: Exactitude factuelle
 subtitle: L’exactitude des contenus influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Accuracy & Maintenance
 impact: High
 influences:
   - Understanding & Retrieval

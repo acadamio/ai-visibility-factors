@@ -7,6 +7,7 @@ factor: Lists and tables
 subtitle: Do lists and tables influence visibility in AI?
 
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

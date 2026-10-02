@@ -7,6 +7,7 @@ factor: Third-party reviews and reputation platforms
 subtitle: Do third-party reviews and reputation platforms influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Expertise & Reputation
 impact: Medium
 influences:
   - Understanding & Retrieval

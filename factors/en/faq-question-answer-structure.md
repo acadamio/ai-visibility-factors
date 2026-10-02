@@ -7,6 +7,7 @@ factor: FAQ / question-answer structure
 subtitle: Does FAQ / question-answer structure influence visibility in AI?
 
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

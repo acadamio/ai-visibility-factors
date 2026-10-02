@@ -5,6 +5,7 @@ slug: contenus-comparatifs
 factor: Contenus comparatifs
 subtitle: Les contenus comparatifs influencent-t-ils la visibilité dans les IA ?
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

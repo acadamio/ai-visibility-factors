@@ -7,6 +7,7 @@ factor: Renderable text content
 subtitle: Does renderable text content influence visibility in AI?
 
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: High
 influences:
   - Discovery & Crawling

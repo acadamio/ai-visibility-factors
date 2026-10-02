@@ -5,6 +5,7 @@ slug: presence-et-activite-sur-les-principaux-reseaux-sociaux
 factor: Présence et activité sur les principaux réseaux sociaux
 subtitle: La présence et l’activité sur les principaux réseaux sociaux influencent-elles la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Community & Channel Presence
 impact: Low
 influences:
   - Discovery & Crawling

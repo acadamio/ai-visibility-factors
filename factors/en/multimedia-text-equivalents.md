@@ -7,6 +7,7 @@ factor: Multimedia text equivalents
 subtitle: Do multimedia text equivalents influence visibility in AI?
 
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

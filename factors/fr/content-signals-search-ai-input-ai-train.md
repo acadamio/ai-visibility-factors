@@ -5,6 +5,7 @@ slug: content-signals-search-ai-input-ai-train
 factor: Content Signals (search, ai-input, ai-train)
 subtitle: Les Content Signals (search, ai-input, ai-train) influencent-ils la visibilité dans les IA ?
 category: Technical
+subcategory: AI & Agent Protocols
 impact: Unknown
 influences:
   - Discovery & Crawling

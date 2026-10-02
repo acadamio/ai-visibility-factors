@@ -5,6 +5,7 @@ slug: presence-sur-wikipedia-et-wikidata
 factor: Présence sur Wikipédia et Wikidata
 subtitle: La présence sur Wikipédia et Wikidata influence-t-elle la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Entity & Business Profiles
 impact: Low
 influences:
   - Understanding & Retrieval

@@ -7,6 +7,7 @@ factor: Entity and terminology clarity
 subtitle: Do entity and terminology clarity influence visibility in AI?
 
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

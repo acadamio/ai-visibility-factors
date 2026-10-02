@@ -7,6 +7,7 @@ factor: Content consistency
 subtitle: Does content consistency influence visibility in AI?
 
 category: Content
+subcategory: Accuracy & Maintenance
 impact: Medium
 influences:
   - Understanding & Retrieval

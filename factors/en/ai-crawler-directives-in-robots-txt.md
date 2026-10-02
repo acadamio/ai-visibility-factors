@@ -7,6 +7,7 @@ factor: AI crawler directives in robots.txt
 subtitle: Do dedicated AI crawler rules influence visibility in AI?
 
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

@@ -5,6 +5,7 @@ slug: actualite-du-contenu-et-transparence-des-dates
 factor: Actualité du contenu et transparence des dates
 subtitle: L’actualité du contenu et la transparence des dates influencent-elles la visibilité dans les IA ?
 category: Content
+subcategory: Accuracy & Maintenance
 impact: Medium
 influences:
   - Understanding & Retrieval

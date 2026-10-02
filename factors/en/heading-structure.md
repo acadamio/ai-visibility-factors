@@ -7,6 +7,7 @@ factor: Heading structure
 subtitle: Does heading structure influence visibility in AI?
 
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

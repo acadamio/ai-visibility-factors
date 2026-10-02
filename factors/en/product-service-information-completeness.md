@@ -7,6 +7,7 @@ factor: Product / service information completeness
 subtitle: Does product / service information completeness influence visibility in AI?
 
 category: Content
+subcategory: Content Types & Coverage
 impact: High
 influences:
   - Understanding & Retrieval

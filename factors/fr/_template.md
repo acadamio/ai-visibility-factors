@@ -7,6 +7,7 @@ factor:
 subtitle:
 
 category: # liste contrôlée
+subcategory: # liste contrôlée, appartient à la catégorie
 impact: # liste contrôlée
 influences: # liste contrôlée, plusieurs valeurs possibles
 proof: # liste contrôlée

@@ -5,6 +5,7 @@ slug: mentions-par-les-analystes-secteur
 factor: Mentions par les analystes du secteur
 subtitle: Les mentions des analystes du secteur influencent-elles la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Earned Mentions & Links
 impact: Low
 influences:
   - Understanding & Retrieval

@@ -5,6 +5,7 @@ slug: presence-sur-les-forums-et-dans-les-communautes
 factor: Présence sur les forums et dans les communautés
 subtitle: La présence sur les forums et les communautés influence-t-elle la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Community & Channel Presence
 impact: Medium
 influences:
   - Understanding & Retrieval

@@ -20,7 +20,7 @@ async function fixture(run) {
   } finally { await fs.rm(root, { recursive: true, force: true }); }
 }
 async function writeFactor(root, overrides = {}, body) {
-  const data = { id: 'test-factor', language: 'en', slug: 'test-factor', factor: 'Test factor', subtitle: 'A test description.', category: 'Technical', impact: 'Unknown', influences: ['Discovery & Crawling'], proof: 'Low', consensus: 'Mixed', status: 'Published', last_reviewed: '2026-09-23', ...overrides };
+  const data = { id: 'test-factor', language: 'en', slug: 'test-factor', factor: 'Test factor', subtitle: 'A test description.', category: 'Technical', subcategory: 'Crawler Access & Directives', impact: 'Unknown', influences: ['Discovery & Crawling'], proof: 'Low', consensus: 'Mixed', status: 'Published', last_reviewed: '2026-09-23', ...overrides };
   const locale = JSON.parse(await fs.readFile(path.join(root, 'config/sections', `${data.language}.json`), 'utf8'));
   const content = body ?? locale.sections.map(heading => `## ${heading}\n\nTest text with a [source](https://example.org/).`).join('\n\n');
   await fs.mkdir(path.join(root, 'factors', data.language), { recursive: true });
@@ -40,6 +40,32 @@ test('invalid metadata and incomplete published content are rejected', () => fix
 }));
 
 
+test('subcategories are required, single controlled values belonging to their category', () => fixture(async root => {
+  await writeFactor(root, { subcategory: undefined });
+  await assert.rejects(loadContent(root), /missing subcategory/);
+  for (const subcategory of [null, '', 'Invented', ['Crawler Access & Directives'], ['Crawler Access & Directives', 'Discovery & Indexing']]) {
+    await writeFactor(root, { subcategory });
+    await assert.rejects(loadContent(root), /invalid subcategory/);
+  }
+  const controlled = YAML.parse(await fs.readFile(path.join(root, 'config/controlled-values.yml'), 'utf8'));
+  for (const [category, subcategories] of Object.entries(controlled.subcategory)) {
+    for (const subcategory of subcategories) {
+      await writeFactor(root, { category, subcategory });
+      assert.equal((await loadContent(root)).factors[0].subcategory, subcategory);
+      for (const otherCategory of controlled.category.filter(value => value !== category)) {
+        await writeFactor(root, { category: otherCategory, subcategory });
+        await assert.rejects(loadContent(root), /subcategory does not belong to category/);
+      }
+    }
+  }
+  await writeFactor(root, { status: 'Hidden', category: null, subcategory: null });
+  assert.equal((await loadContent(root)).factors[0].status, 'Hidden');
+  await writeFactor(root, { status: 'Hidden', subcategory: 'Invented' });
+  await assert.rejects(loadContent(root), /invalid subcategory/);
+  await writeFactor(root, { status: 'Hidden', subcategory: 'Evidence & Originality' });
+  await assert.rejects(loadContent(root), /subcategory does not belong to category/);
+}));
+
 test('content export excludes hidden drafts and needs no website', () => fixture(async root => {
   await writeFactor(root);
   await writeFactor(root, { id: 'hidden-factor', slug: 'hidden-factor', status: 'Hidden', factor: 'PRIVATE_DRAFT' });
@@ -48,6 +74,7 @@ test('content export excludes hidden drafts and needs no website', () => fixture
   const records = JSON.parse(await fs.readFile(filename, 'utf8'));
   assert.equal(records.length, 1);
   assert.equal(records[0].id, 'test-factor');
+  assert.equal(records[0].subcategory, 'Crawler Access & Directives');
   assert.doesNotMatch(await fs.readFile(filename, 'utf8'), /PRIVATE_DRAFT/);
   await assert.rejects(fs.access(path.join(root, 'src')));
   await writeFactor(root, { status: 'Hidden' });
@@ -79,6 +106,8 @@ test('language exports contain only their published translations and prune obsol
   assert.equal(french[0].language, 'fr');
   assert.equal(english[0].id, french[0].id);
   assert.equal(french[0].slug, 'facteur-test');
+  assert.equal(english[0].subcategory, 'Crawler Access & Directives');
+  assert.equal(french[0].subcategory, english[0].subcategory);
   assert.deepEqual(await read('factors.json'), [...english, ...french]);
   assert.doesNotMatch(await fs.readFile(path.join(directory, 'factors.fr.json'), 'utf8'), /PRIVATE_DRAFT/);
   const filename = path.join(directory, 'factors.en.json');

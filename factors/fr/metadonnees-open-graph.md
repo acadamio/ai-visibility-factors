@@ -5,6 +5,7 @@ slug: metadonnees-open-graph
 factor: Métadonnées Open Graph
 subtitle: Les métadonnées Open Graph influencent-elles la visibilité dans les IA ?
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Low
 influences:
   - Understanding & Retrieval

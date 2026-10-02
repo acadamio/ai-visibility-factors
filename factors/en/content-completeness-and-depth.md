@@ -7,6 +7,7 @@ factor: Content completeness and depth
 subtitle: Do content completeness and depth influence visibility in AI?
 
 category: Content
+subcategory: Answer Quality & Relevance
 impact: High
 influences:
   - Understanding & Retrieval

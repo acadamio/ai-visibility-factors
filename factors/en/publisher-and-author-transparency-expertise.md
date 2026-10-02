@@ -7,6 +7,7 @@ factor: Publisher and author transparency / expertise
 subtitle: Do publisher and author transparency / expertise influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Expertise & Reputation
 impact: Medium
 influences:
   - Understanding & Retrieval

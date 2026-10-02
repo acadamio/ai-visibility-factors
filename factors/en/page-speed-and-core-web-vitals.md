@@ -7,6 +7,7 @@ factor: Page speed and Core Web Vitals
 subtitle: Do page speed and Core Web Vitals influence visibility in AI?
 
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: Medium
 influences:
   - Mention & Recommendation

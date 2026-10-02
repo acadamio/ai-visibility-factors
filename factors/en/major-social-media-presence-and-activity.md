@@ -7,6 +7,7 @@ factor: Major social media presence and activity
 subtitle: Do major social media presence and activity influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Community & Channel Presence
 impact: Low
 influences:
   - Discovery & Crawling

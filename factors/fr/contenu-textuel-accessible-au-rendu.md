@@ -5,6 +5,7 @@ slug: contenu-textuel-accessible-au-rendu
 factor: Contenu textuel accessible au rendu
 subtitle: L'accessibilité du contenu texte au rendu influence-t-elle la visibilité dans les IA ?
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: High
 influences:
   - Discovery & Crawling

@@ -5,6 +5,7 @@ slug: etudes-de-cas
 factor: Études de cas
 subtitle: Les études de cas influencent-elles la visibilité dans les IA ?
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

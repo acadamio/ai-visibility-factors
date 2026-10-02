@@ -7,6 +7,7 @@ factor: Passage clarity and extractability
 subtitle: Do passage clarity and extractability influence visibility in AI?
 
 category: Content
+subcategory: Answer Quality & Relevance
 impact: Medium
 influences:
   - Understanding & Retrieval

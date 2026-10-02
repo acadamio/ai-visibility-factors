@@ -5,6 +5,7 @@ slug: donnees-originales-et-preuves-quantitatives
 factor: Données originales et preuves quantitatives
 subtitle: Les données originales et les preuves quantitatives influencent-elles la visibilité dans les IA ?
 category: Content
+subcategory: Evidence & Originality
 impact: Medium
 influences:
   - Understanding & Retrieval

@@ -5,6 +5,7 @@ slug: canonicalisation-et-gestion-des-doublons
 factor: Canonicalisation et gestion des doublons
 subtitle: La canonicalisation et la gestion des doublons influencent-elles la visibilité dans les IA ?
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Medium
 influences:
   - Discovery & Crawling

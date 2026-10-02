@@ -5,6 +5,7 @@ slug: clarte-et-extractibilite-des-passages
 factor: Clarté et extractibilité des passages
 subtitle: La clarté et l’extractibilité des passages influencent-elles la visibilité dans les IA ?
 category: Content
+subcategory: Answer Quality & Relevance
 impact: Medium
 influences:
   - Understanding & Retrieval

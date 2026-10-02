@@ -7,6 +7,7 @@ factor: Semantic HTML
 subtitle: Does semantic HTML influence visibility in AI?
 
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

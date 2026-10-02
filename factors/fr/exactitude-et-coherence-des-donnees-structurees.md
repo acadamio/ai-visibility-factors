@@ -5,6 +5,7 @@ slug: exactitude-et-coherence-des-donnees-structurees
 factor: Exactitude et cohérence des données structurées
 subtitle: L’exactitude et la cohérence des données structurées influencent-elles la visibilité dans les IA ?
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

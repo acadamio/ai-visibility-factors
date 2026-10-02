@@ -5,6 +5,7 @@ slug: directives-dediees-aux-robots-ia-dans-robots-txt
 factor: Directives dédiées aux robots IA dans robots.txt
 subtitle: Des règles dédiées aux robots d'exploration d'IA influencent-elles la visibilité dans les IA ?
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

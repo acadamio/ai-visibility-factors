@@ -7,6 +7,7 @@ factor: Comparison content
 subtitle: Does comparison content influence visibility in AI?
 
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

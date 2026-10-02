@@ -7,6 +7,7 @@ factor: Third-party brand mentions
 subtitle: Do third-party brand mentions influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Earned Mentions & Links
 impact: Medium
 influences:
   - Understanding & Retrieval

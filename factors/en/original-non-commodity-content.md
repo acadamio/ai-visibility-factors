@@ -7,6 +7,7 @@ factor: Original / non-commodity content
 subtitle: Does original / non-commodity content influence visibility in AI?
 
 category: Content
+subcategory: Evidence & Originality
 impact: High
 influences:
   - Understanding & Retrieval

@@ -7,6 +7,7 @@ factor: Factual accuracy
 subtitle: Does factual accuracy influence visibility in AI?
 
 category: Content
+subcategory: Accuracy & Maintenance
 impact: High
 influences:
   - Understanding & Retrieval

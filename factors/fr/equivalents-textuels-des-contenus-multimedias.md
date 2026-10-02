@@ -5,6 +5,7 @@ slug: equivalents-textuels-des-contenus-multimedias
 factor: Équivalents textuels des contenus multimédias
 subtitle: Les équivalents textuels des contenus multimédia influencent-ils la visibilité dans les IA ?
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

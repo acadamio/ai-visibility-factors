@@ -5,6 +5,7 @@ slug: contenus-et-transcriptions-youtube
 factor: Contenus et transcriptions YouTube
 subtitle: Le contenu et les transcriptions YouTube influencent-ils la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Community & Channel Presence
 impact: Medium
 influences:
   - Discovery & Crawling

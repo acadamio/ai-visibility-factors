@@ -7,6 +7,7 @@ factor: Indexability directives
 subtitle: Do indexability directives influence visibility in AI?
 
 category: Technical
+subcategory: Discovery & Indexing
 impact: High
 influences:
   - Understanding & Retrieval

@@ -5,6 +5,7 @@ slug: backlinks
 factor: Backlinks
 subtitle: Les backlinks influencent-ils la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Earned Mentions & Links
 impact: Medium
 influences:
   - Discovery & Crawling

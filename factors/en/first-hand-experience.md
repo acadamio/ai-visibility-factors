@@ -7,6 +7,7 @@ factor: First-hand experience
 subtitle: Does first-hand experience influence visibility in AI?
 
 category: Content
+subcategory: Evidence & Originality
 impact: Medium
 influences:
   - Understanding & Retrieval

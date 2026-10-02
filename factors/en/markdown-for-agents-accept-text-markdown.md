@@ -7,6 +7,7 @@ factor: "Markdown for Agents / `Accept: text/markdown`"
 subtitle: "Does Markdown for Agents / `Accept: text/markdown` influence visibility in AI?"
 
 category: Technical
+subcategory: AI & Agent Protocols
 impact: Low
 influences:
   - Understanding & Retrieval

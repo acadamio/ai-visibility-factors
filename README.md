@@ -8,7 +8,7 @@ Use it for Audits · Research · Internal tools · AI visibility platforms · Ed
 
 **[🌐 Explore the catalog](https://www.aivisibilityfactors.com/) · [⭐ Star the project](https://github.com/acadamio/ai-visibility-factors) · [💡 Suggest or challenge a factor](https://github.com/acadamio/ai-visibility-factors/blob/main/CONTRIBUTING.md)**
 
-Individual Markdown files in `factors/{language}/` are the canonical source. Translations share stable factor IDs. Controlled values live in `config/controlled-values.yml`; required editorial headings live in `config/sections/{language}.json`.
+Individual Markdown files in `factors/{language}/` are the canonical source. Translations share stable factor IDs. Each factor has one controlled `category` and one `subcategory` belonging to that category, with the same English values across translations. Controlled values and the category-to-subcategory taxonomy live in `config/controlled-values.yml`; required editorial headings live in `config/sections/{language}.json`.
 
 This repository contains the catalog, its format documentation and its validation/export tools.
 

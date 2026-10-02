@@ -5,6 +5,7 @@ slug: formatage-des-donnees-pour-leur-lecture-par-les-machines
 factor: Formatage des données pour leur lecture par les machines
 subtitle: Le formatage des données lisibles par machine influence-t-il la visibilité dans les IA ?
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

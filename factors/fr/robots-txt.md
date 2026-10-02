@@ -5,6 +5,7 @@ slug: robots-txt
 factor: robots.txt
 subtitle: Un fichier robots.txt manquant, inaccessible ou restrictif peut-il affecter l'accès des robots d'exploration IA ?
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

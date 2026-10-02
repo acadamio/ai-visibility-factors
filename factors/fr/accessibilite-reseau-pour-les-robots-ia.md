@@ -5,6 +5,7 @@ slug: accessibilite-reseau-pour-les-robots-ia
 factor: Accessibilité réseau pour les robots IA
 subtitle: L’accessibilité réseau pour les robots IA influence-t-elle la visibilité dans les IA ?
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

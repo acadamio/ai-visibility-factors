@@ -5,6 +5,7 @@ slug: markdown-pour-agents
 factor: "Markdown pour Agents"
 subtitle: "Le Markdown pour les agents influence-t-il la visibilité dans les IA ?"
 category: Technical
+subcategory: AI & Agent Protocols
 impact: Low
 influences:
   - Understanding & Retrieval

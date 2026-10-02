@@ -5,6 +5,7 @@ slug: profondeur-d-exploration-et-accessibilite-des-pages-cles
 factor: Profondeur d’exploration et accessibilité des pages clés
 subtitle: La profondeur d'exploration affecte-t-elle l'accessibilité des pages clés pour la visibilité dans les IA ?
 category: Technical
+subcategory: Discovery & Indexing
 impact: Medium
 influences:
   - Discovery & Crawling

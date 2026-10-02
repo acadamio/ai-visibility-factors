@@ -7,6 +7,7 @@ factor: Forum and community presence
 subtitle: Does forum and community presence influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Community & Channel Presence
 impact: Medium
 influences:
   - Understanding & Retrieval

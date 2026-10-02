@@ -5,6 +5,7 @@ slug: fiabilite-technique-et-bon-fonctionnement-http
 factor: Fiabilité technique et bon fonctionnement HTTP
 subtitle: La fiabilité technique et la santé HTTP influencent-elles la visibilité dans les IA ?
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: High
 influences:
   - Discovery & Crawling

@@ -5,6 +5,7 @@ slug: ergonomie-mobile
 factor: Ergonomie mobile
 subtitle: L’ergonomie mobile influence-t-elle la visibilité dans les IA ?
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: High
 influences:
   - Discovery & Crawling

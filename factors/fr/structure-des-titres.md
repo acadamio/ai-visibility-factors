@@ -5,6 +5,7 @@ slug: structure-des-titres
 factor: Structure des titres
 subtitle: La structure des titres influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

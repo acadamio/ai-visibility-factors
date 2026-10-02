@@ -7,6 +7,7 @@ factor: AI crawler network accessibility
 subtitle: Does AI crawler network accessibility influence visibility in AI?
 
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

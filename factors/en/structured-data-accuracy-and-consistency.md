@@ -7,6 +7,7 @@ factor: Structured data accuracy and consistency
 subtitle: Do structured data accuracy and consistency influence visibility in AI?
 
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

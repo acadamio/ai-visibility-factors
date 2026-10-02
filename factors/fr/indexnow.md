@@ -5,6 +5,7 @@ slug: indexnow
 factor: IndexNow
 subtitle: IndexNow influence-t-il la visibilité dans les IA ?
 category: Technical
+subcategory: Discovery & Indexing
 impact: Medium
 influences:
   - Discovery & Crawling

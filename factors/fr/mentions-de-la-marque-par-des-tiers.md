@@ -5,6 +5,7 @@ slug: mentions-de-la-marque-par-des-tiers
 factor: Mentions de la marque par des tiers
 subtitle: Les mentions de marques par des tiers influencent-elles la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Earned Mentions & Links
 impact: Medium
 influences:
   - Understanding & Retrieval

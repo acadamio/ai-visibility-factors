@@ -5,6 +5,7 @@ slug: transparence-et-expertise-des-editeurs-et-des-auteurs
 factor: Transparence et expertise des éditeurs et des auteurs
 subtitle: La transparence/expertise des éditeurs et des auteurs influence-t-elle la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Expertise & Reputation
 impact: Medium
 influences:
   - Understanding & Retrieval

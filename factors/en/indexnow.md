@@ -7,6 +7,7 @@ factor: IndexNow
 subtitle: Does IndexNow influence visibility in AI?
 
 category: Technical
+subcategory: Discovery & Indexing
 impact: Medium
 influences:
   - Discovery & Crawling

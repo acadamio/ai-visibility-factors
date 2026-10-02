@@ -5,6 +5,7 @@ slug: https
 factor: HTTPS
 subtitle: Le HTTPS influence-t-il la visibilité dans les IA ?
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: Low
 influences:
   - Discovery & Crawling

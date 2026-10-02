@@ -7,6 +7,7 @@ factor: XML sitemap quality
 subtitle: Does XML sitemap quality influence visibility in AI?
 
 category: Technical
+subcategory: Discovery & Indexing
 impact: Medium
 influences:
   - Discovery & Crawling

@@ -7,6 +7,7 @@ factor: Crawl depth / key-page accessibility
 subtitle: Does crawl depth affect the accessibility of key pages for AI visibility?
 
 category: Technical
+subcategory: Discovery & Indexing
 impact: Medium
 influences:
   - Discovery & Crawling

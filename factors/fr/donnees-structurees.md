@@ -5,6 +5,7 @@ slug: donnees-structurees
 factor: Données structurées
 subtitle: Les données structurées influencent-elles la visibilité dans les IA ?
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

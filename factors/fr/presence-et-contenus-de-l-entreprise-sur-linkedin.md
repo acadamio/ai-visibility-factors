@@ -5,6 +5,7 @@ slug: presence-et-contenus-de-l-entreprise-sur-linkedin
 factor: Présence et contenus de l’entreprise sur LinkedIn
 subtitle: La présence et les contenus de l’entreprise sur LinkedIn influencent-ils la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Entity & Business Profiles
 impact: Low
 influences:
   - Understanding & Retrieval

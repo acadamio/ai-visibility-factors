@@ -7,6 +7,7 @@ factor: Industry directories and business listings
 subtitle: Do industry directories and business listings influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Entity & Business Profiles
 impact: Medium
 influences:
   - Discovery & Crawling

@@ -14,6 +14,7 @@ All fields below are required. No additional fields are currently defined.
 | `factor` | Public display name, for example `robots.txt`. |
 | `subtitle` | Natural-language sentence or question for display and search metadata, such as “Does robots.txt influence your visibility in AI?” |
 | `category` | Exactly one controlled category. |
+| `subcategory` | Exactly one controlled operational group belonging to the selected `category`. Place it directly after `category`; keep the English controlled value in every language. |
 | `impact` | Exactly one controlled value assessing potential effect on AI visibility. |
 | `influences` | A YAML list containing one or more distinct controlled values. This is the only multi-value controlled field. |
 | `proof` | Exactly one controlled value representing strength of available evidence. |
@@ -23,13 +24,20 @@ All fields below are required. No additional fields are currently defined.
 
 All controlled values are defined in [`config/controlled-values.yml`](../config/controlled-values.yml). AI platforms have no controlled list.
 
+The `subcategory` mapping in that configuration defines the allowed values under each category: six for Technical, five for Content, and four for Authority & External Signals. Each published factor belongs to one subcategory, grouping related factors for website organization and automated audit tasks.
+
+```yaml
+category: Technical
+subcategory: Crawler Access & Directives
+```
+
 ```yaml
 influences:
   - Discovery & Crawling
   - Understanding & Retrieval
 ```
 
-A translation preserves `id: structured-data` while its `language` and `slug` can change, for example from `en` / `structured-data` to `fr` / `donnees-structurees`.
+A translation preserves `id: structured-data` and the same `category` and `subcategory` while its `language` and `slug` can change, for example from `en` / `structured-data` to `fr` / `donnees-structurees`.
 
 ## Editorial sections
 
@@ -46,8 +54,8 @@ There is no separate Evidence section. Translate these headings through the corr
 
 ## Validation and generated outputs
 
-Validation checks required fields, controlled values, language-directory agreement, duplicate IDs and slugs within each language, real calendar dates, and the required section order. Published factors must contain text in every section and no unfilled template prompts. Validation cannot establish the truth or quality of evidence; editorial review is still required.
+Validation checks required fields, controlled values (including a single subcategory belonging to the selected category), language-directory agreement, duplicate IDs and slugs within each language, real calendar dates, and the required section order. Published factors must contain text in every section and no unfilled template prompts. Validation cannot establish the truth or quality of evidence; editorial review is still required.
 
-Hidden drafts may leave descriptive fields, assessments, and review dates empty, but must retain every field, all six headings, valid identity fields, and `status: Hidden`. Any supplied assessment or date must be valid.
+Hidden drafts may leave descriptive fields, category, subcategory, assessments, and review dates empty, but must retain every field, all six headings, valid identity fields, and `status: Hidden`. Any supplied taxonomy value, assessment, or date must be valid; a supplied subcategory must belong to the selected category.
 
-The content build generates `dist/data/factors.json` for all published languages and `dist/data/factors.{language}.json` for each language with published factors. Records contain front matter, a derived URL path and Markdown body. These exports support structured reuse without the website. No hidden draft content is exported. A language export is removed when that language no longer has published factors.
+The content build generates `dist/data/factors.json` for all published languages and `dist/data/factors.{language}.json` for each language with published factors. Records contain front matter (including `category` and `subcategory`), a derived URL path and Markdown body. These exports support structured reuse without the website. No hidden draft content is exported. A language export is removed when that language no longer has published factors.

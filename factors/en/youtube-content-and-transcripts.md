@@ -7,6 +7,7 @@ factor: YouTube content and transcripts
 subtitle: Do YouTube content and transcripts influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Community & Channel Presence
 impact: Medium
 influences:
   - Discovery & Crawling

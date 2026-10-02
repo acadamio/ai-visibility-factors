@@ -5,6 +5,7 @@ slug: contenu-sur-les-cas-d-usage
 factor: Contenu sur les cas d’usage
 subtitle: Les cas d'usage influencent-t-ils la visibilité dans les IA ?
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

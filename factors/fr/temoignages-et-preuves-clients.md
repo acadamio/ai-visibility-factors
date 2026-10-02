@@ -5,6 +5,7 @@ slug: temoignages-et-preuves-clients
 factor: Témoignages et preuves clients
 subtitle: Les témoignages et preuves clients influencent-ils la visibilité dans les IA ?
 category: Content
+subcategory: Evidence & Originality
 impact: Low
 influences:
   - Understanding & Retrieval

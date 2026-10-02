@@ -7,6 +7,7 @@ factor: "Content Signals (`search`, `ai-input`, `ai-train`)"
 subtitle: "Do Content Signals (`search`, `ai-input`, `ai-train`) influence visibility in AI?"
 
 category: Technical
+subcategory: AI & Agent Protocols
 impact: Unknown
 influences:
   - Discovery & Crawling

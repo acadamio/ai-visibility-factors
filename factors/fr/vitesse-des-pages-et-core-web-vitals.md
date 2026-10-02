@@ -5,6 +5,7 @@ slug: vitesse-des-pages-et-core-web-vitals
 factor: Vitesse des pages et Core Web Vitals
 subtitle: La vitesse des pages et les Core Web Vitals influencent-ils la visibilité dans les IA ?
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: Medium
 influences:
   - Mention & Recommendation

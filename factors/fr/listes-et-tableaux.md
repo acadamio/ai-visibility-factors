@@ -5,6 +5,7 @@ slug: listes-et-tableaux
 factor: Listes et tableaux
 subtitle: Les listes et les tableaux influencent-ils la visibilité dans les IA ?
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

@@ -7,6 +7,7 @@ factor: Machine-readable data formatting
 subtitle: Does machine-readable data formatting influence visibility in AI?
 
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

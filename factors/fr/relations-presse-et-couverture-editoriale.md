@@ -5,6 +5,7 @@ slug: relations-presse-et-couverture-editoriale
 factor: Relations presse et couverture éditoriale
 subtitle: Les relations presse et la couverture éditoriale influencent-elles la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Earned Mentions & Links
 impact: Medium
 influences:
   - Discovery & Crawling

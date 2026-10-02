@@ -7,6 +7,7 @@ factor: PR and editorial coverage
 subtitle: Do PR and editorial coverage influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Earned Mentions & Links
 impact: Medium
 influences:
   - Discovery & Crawling

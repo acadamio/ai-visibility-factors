@@ -7,6 +7,7 @@ factor: Page title and meta description
 subtitle: Do page title and meta description influence visibility in AI?
 
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Medium
 influences:
   - Discovery & Crawling

@@ -7,6 +7,7 @@ factor: HTTPS
 subtitle: Does HTTPS influence visibility in AI?
 
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: Low
 influences:
   - Discovery & Crawling

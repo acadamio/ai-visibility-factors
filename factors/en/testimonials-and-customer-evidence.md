@@ -7,6 +7,7 @@ factor: Testimonials and customer evidence
 subtitle: Do testimonials and customer evidence influence visibility in AI?
 
 category: Content
+subcategory: Evidence & Originality
 impact: Low
 influences:
   - Understanding & Retrieval

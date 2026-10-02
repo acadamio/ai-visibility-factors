@@ -7,6 +7,7 @@ factor: Original data and quantitative evidence
 subtitle: Do original data and quantitative evidence influence visibility in AI?
 
 category: Content
+subcategory: Evidence & Originality
 impact: Medium
 influences:
   - Understanding & Retrieval

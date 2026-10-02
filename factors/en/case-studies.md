@@ -7,6 +7,7 @@ factor: Case studies
 subtitle: Do case studies influence visibility in AI?
 
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

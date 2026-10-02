@@ -5,6 +5,7 @@ slug: exhaustivite-des-informations-sur-les-produits-et-services
 factor: Exhaustivité des informations sur les produits et services
 subtitle: L’exhaustivité des informations sur les produits/services influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Content Types & Coverage
 impact: High
 influences:
   - Understanding & Retrieval

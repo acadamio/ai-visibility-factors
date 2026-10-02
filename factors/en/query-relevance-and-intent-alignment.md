@@ -7,6 +7,7 @@ factor: Query relevance and intent alignment
 subtitle: Do query relevance and intent alignment influence visibility in AI?
 
 category: Content
+subcategory: Answer Quality & Relevance
 impact: High
 influences:
   - Understanding & Retrieval

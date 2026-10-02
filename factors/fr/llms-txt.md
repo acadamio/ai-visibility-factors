@@ -5,6 +5,7 @@ slug: llms-txt
 factor: llms.txt
 subtitle: Le fichier llms.txt influence-t-il la visibilité dans les IA ?
 category: Technical
+subcategory: AI & Agent Protocols
 impact: Low
 influences:
   - Discovery & Crawling

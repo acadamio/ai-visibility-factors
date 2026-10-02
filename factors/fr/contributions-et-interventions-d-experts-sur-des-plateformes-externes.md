@@ -5,6 +5,7 @@ slug: contributions-et-interventions-d-experts-sur-des-plateformes-externes
 factor: Contributions et interventions d’experts sur des plateformes externes
 subtitle: Les contributions et apparitions d’experts externes influencent-elles la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Expertise & Reputation
 impact: Low
 influences:
   - Discovery & Crawling

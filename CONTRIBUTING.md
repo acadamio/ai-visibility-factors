@@ -10,9 +10,9 @@ For a new factor, copy `factors/en/_template.md` to a descriptive Markdown filen
 
 Changes to assessments should include supporting evidence. Link sources alongside the claims they support, prefer primary sources, and explain uncertainty or credible disagreement. Impact, evidence strength, and consensus are distinct assessments.
 
-Controlled fields must use the values in [`config/controlled-values.yml`](config/controlled-values.yml). Propose changes to that schema separately. AI platforms are open editorial text, not a controlled field or rating.
+Controlled fields must use the values in [`config/controlled-values.yml`](config/controlled-values.yml). Choose exactly one `subcategory` from the mapping for the selected `category`. Propose changes to that schema separately. AI platforms are open editorial text, not a controlled field or rating.
 
-Translations belong in `factors/{language}/` and retain the original factor's `id`. Titles, subtitles, slugs, and editorial text can be localized. Adding a content language requires `config/sections/{language}.json` with the six translated editorial headings.
+Translations belong in `factors/{language}/` and retain the original factor's `id`, `category`, and `subcategory`, keeping controlled taxonomy values in English. Titles, subtitles, slugs, and editorial text can be localized. Adding a content language requires `config/sections/{language}.json` with the six translated editorial headings.
 
 Run `npm run check`, `npm test`, and `npm run build` before submitting a pull request. Include regenerated JSON exports in `dist/data/` when the published catalog changes.
 

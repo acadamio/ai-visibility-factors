@@ -5,6 +5,7 @@ slug: slugs-url-descriptifs
 factor: Slugs d’URL descriptifs
 subtitle: Les slugs d’URL descriptifs influencent-ils la visibilité dans les IA ?
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Low
 influences:
   - Understanding & Retrieval

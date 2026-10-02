@@ -7,6 +7,7 @@ factor: Mobile usability
 subtitle: Does mobile usability influence visibility in AI?
 
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: High
 influences:
   - Discovery & Crawling

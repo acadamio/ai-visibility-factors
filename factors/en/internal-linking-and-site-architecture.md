@@ -7,6 +7,7 @@ factor: Internal linking and site architecture
 subtitle: Do internal linking and site architecture influence visibility in AI?
 
 category: Technical
+subcategory: Discovery & Indexing
 impact: High
 influences:
   - Discovery & Crawling

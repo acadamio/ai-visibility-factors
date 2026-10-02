@@ -5,6 +5,7 @@ slug: clarte-des-entites-et-de-la-terminologie
 factor: Clarté des entités et de la terminologie
 subtitle: La clarté des entités et de la terminologie influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Content Structure & Clarity
 impact: Medium
 influences:
   - Understanding & Retrieval

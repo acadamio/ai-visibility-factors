@@ -5,6 +5,7 @@ slug: citation-des-sources
 factor: Citation des sources
 subtitle: Les citations de sources influencent-elles la visibilité dans les IA ?
 category: Content
+subcategory: Evidence & Originality
 impact: Medium
 influences:
   - Understanding & Retrieval

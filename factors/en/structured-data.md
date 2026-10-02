@@ -7,6 +7,7 @@ factor: Structured data
 subtitle: Does structured data influence visibility in AI?
 
 category: Technical
+subcategory: Structured & Semantic Data
 impact: Medium
 influences:
   - Understanding & Retrieval

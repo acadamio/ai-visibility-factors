@@ -5,6 +5,7 @@ slug: qualite-des-reponses-directes
 factor: Qualité des réponses directes
 subtitle: La qualité des réponses directes influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Answer Quality & Relevance
 impact: Medium
 influences:
   - Understanding & Retrieval

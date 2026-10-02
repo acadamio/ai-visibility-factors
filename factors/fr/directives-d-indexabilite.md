@@ -5,6 +5,7 @@ slug: directives-d-indexabilite
 factor: Directives d’indexabilité
 subtitle: Les directives d’indexabilité influencent-elles la visibilité dans les IA ?
 category: Technical
+subcategory: Discovery & Indexing
 impact: High
 influences:
   - Understanding & Retrieval

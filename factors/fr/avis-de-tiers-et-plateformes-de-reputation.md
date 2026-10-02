@@ -5,6 +5,7 @@ slug: avis-de-tiers-et-plateformes-de-reputation
 factor: Avis de tiers et plateformes de réputation
 subtitle: Les avis tiers et les plateformes de réputation influencent-ils la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Expertise & Reputation
 impact: Medium
 influences:
   - Understanding & Retrieval

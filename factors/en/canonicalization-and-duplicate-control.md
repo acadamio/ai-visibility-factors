@@ -7,6 +7,7 @@ factor: Canonicalization and duplicate control
 subtitle: Do canonicalization and duplicate control influence visibility in AI?
 
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Medium
 influences:
   - Discovery & Crawling

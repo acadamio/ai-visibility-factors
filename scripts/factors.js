@@ -3,7 +3,7 @@ const path = require('node:path');
 const YAML = require('yaml');
 const MarkdownIt = require('markdown-it');
 const markdown = new MarkdownIt({ html: false, linkify: false });
-const fields = ['id', 'language', 'slug', 'factor', 'subtitle', 'category', 'impact', 'influences', 'proof', 'consensus', 'status', 'last_reviewed'];
+const fields = ['id', 'language', 'slug', 'factor', 'subtitle', 'category', 'subcategory', 'impact', 'influences', 'proof', 'consensus', 'status', 'last_reviewed'];
 const languagePattern = /^[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/;
 const empty = value => value === null || value === '';
 
@@ -50,7 +50,10 @@ async function loadContent(root) {
       for (const [field, values] of Object.entries(controlled)) {
         const value = data[field];
         if (!published && empty(value) && field !== 'status') continue;
-        if (field === 'influences') {
+        if (field === 'subcategory') {
+          if (typeof value !== 'string' || !Object.values(values).some(subcategories => subcategories.includes(value))) fail('invalid subcategory');
+          if (!Object.hasOwn(values, data.category) || !values[data.category].includes(value)) fail('subcategory does not belong to category');
+        } else if (field === 'influences') {
           if (!Array.isArray(value) || !value.length || new Set(value).size !== value.length || value.some(item => !values.includes(item))) fail('invalid influences');
         } else if (!values.includes(value)) fail(`invalid ${field}`);
       }

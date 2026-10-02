@@ -7,6 +7,7 @@ factor: Use-case content
 subtitle: Does use-case content influence visibility in AI?
 
 category: Content
+subcategory: Content Types & Coverage
 impact: Medium
 influences:
   - Understanding & Retrieval

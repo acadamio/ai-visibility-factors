@@ -7,6 +7,7 @@ factor: Snippet and content reuse controls
 subtitle: Do snippet and content reuse controls influence visibility in AI?
 
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Understanding & Retrieval

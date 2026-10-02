@@ -7,6 +7,7 @@ factor: Public content accessibility
 subtitle: Does public content accessibility influence visibility in AI?
 
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

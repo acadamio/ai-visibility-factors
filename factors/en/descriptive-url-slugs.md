@@ -7,6 +7,7 @@ factor: Descriptive URL slugs
 subtitle: Do descriptive URL slugs influence visibility in AI?
 
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Low
 influences:
   - Understanding & Retrieval

@@ -7,6 +7,7 @@ factor: llms.txt
 subtitle: Does llms.txt influence visibility in AI?
 
 category: Technical
+subcategory: AI & Agent Protocols
 impact: Low
 influences:
   - Discovery & Crawling

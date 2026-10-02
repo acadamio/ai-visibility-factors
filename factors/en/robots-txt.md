@@ -7,6 +7,7 @@ factor: robots.txt
 subtitle: Can a missing, inaccessible, or restrictive robots.txt affect AI crawler access?
 
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

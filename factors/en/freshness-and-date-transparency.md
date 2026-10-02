@@ -7,6 +7,7 @@ factor: Freshness and date transparency
 subtitle: Do freshness and date transparency influence visibility in AI?
 
 category: Content
+subcategory: Accuracy & Maintenance
 impact: Medium
 influences:
   - Understanding & Retrieval

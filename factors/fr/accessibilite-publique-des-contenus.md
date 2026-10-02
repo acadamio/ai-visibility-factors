@@ -5,6 +5,7 @@ slug: accessibilite-publique-des-contenus
 factor: Accessibilité publique des contenus
 subtitle: L’accessibilité publique des contenus influence-t-elle la visibilité dans les IA ?
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Discovery & Crawling

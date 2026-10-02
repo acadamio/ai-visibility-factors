@@ -5,6 +5,7 @@ slug: maillage-interne-et-architecture-du-site
 factor: Maillage interne et architecture du site
 subtitle: Les liens internes et l’architecture du site influencent-ils la visibilité dans les IA ?
 category: Technical
+subcategory: Discovery & Indexing
 impact: High
 influences:
   - Discovery & Crawling

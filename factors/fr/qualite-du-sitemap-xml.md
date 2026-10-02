@@ -5,6 +5,7 @@ slug: qualite-du-plan-de-site-xml
 factor: Qualité du plan de site XML
 subtitle: La qualité du plan de site XML influence-t-elle la visibilité dans les IA ?
 category: Technical
+subcategory: Discovery & Indexing
 impact: Medium
 influences:
   - Discovery & Crawling

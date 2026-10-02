@@ -3,6 +3,26 @@ category:
   - Content
   - Authority & External Signals
 
+subcategory:
+  Technical:
+    - Crawler Access & Directives
+    - Discovery & Indexing
+    - AI & Agent Protocols
+    - Page Metadata & URL Signals
+    - Structured & Semantic Data
+    - Rendering & Technical Quality
+  Content:
+    - Content Types & Coverage
+    - Answer Quality & Relevance
+    - Content Structure & Clarity
+    - Evidence & Originality
+    - Accuracy & Maintenance
+  Authority & External Signals:
+    - Earned Mentions & Links
+    - Entity & Business Profiles
+    - Community & Channel Presence
+    - Expertise & Reputation
+
 impact:
   - High
   - Medium

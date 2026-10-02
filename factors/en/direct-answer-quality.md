@@ -7,6 +7,7 @@ factor: Direct answer quality
 subtitle: Does direct answer quality influence visibility in AI?
 
 category: Content
+subcategory: Answer Quality & Relevance
 impact: Medium
 influences:
   - Understanding & Retrieval

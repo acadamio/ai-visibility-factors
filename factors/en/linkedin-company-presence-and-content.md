@@ -7,6 +7,7 @@ factor: LinkedIn company presence and content
 subtitle: Do LinkedIn company presence and content influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Entity & Business Profiles
 impact: Low
 influences:
   - Understanding & Retrieval

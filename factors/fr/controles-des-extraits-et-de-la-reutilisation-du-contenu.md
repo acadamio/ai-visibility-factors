@@ -5,6 +5,7 @@ slug: controles-des-extraits-et-de-la-reutilisation-du-contenu
 factor: Contrôles des extraits et de la réutilisation du contenu
 subtitle: Les contrôles de réutilisation des extraits et du contenu influencent-ils la visibilité dans les IA ?
 category: Technical
+subcategory: Crawler Access & Directives
 impact: High
 influences:
   - Understanding & Retrieval

@@ -7,6 +7,7 @@ factor: External expert contributions and appearances
 subtitle: Do external expert contributions and appearances influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Expertise & Reputation
 impact: Low
 influences:
   - Discovery & Crawling

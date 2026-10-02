@@ -5,6 +5,7 @@ slug: pertinence-et-adequation-avec-l-intention-de-recherche
 factor: Pertinence et adéquation avec l’intention de recherche
 subtitle: La pertinence et l’adéquation avec l’intention de recherche influencent-elles la visibilité dans les IA ?
 category: Content
+subcategory: Answer Quality & Relevance
 impact: High
 influences:
   - Understanding & Retrieval

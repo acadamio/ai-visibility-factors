@@ -5,6 +5,7 @@ slug: exhaustivite-et-profondeur-du-contenu
 factor: Exhaustivité et profondeur du contenu
 subtitle: L’exhaustivité et la profondeur du contenu influencent-elles la visibilité dans les IA ?
 category: Content
+subcategory: Answer Quality & Relevance
 impact: High
 influences:
   - Understanding & Retrieval

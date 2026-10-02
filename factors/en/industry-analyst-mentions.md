@@ -7,6 +7,7 @@ factor: Industry analyst mentions
 subtitle: Do industry analyst mentions influence visibility in AI?
 
 category: Authority & External Signals
+subcategory: Earned Mentions & Links
 impact: Low
 influences:
   - Understanding & Retrieval

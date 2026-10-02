@@ -7,6 +7,7 @@ factor: Technical reliability and HTTP health
 subtitle: Do technical reliability and HTTP health influence visibility in AI?
 
 category: Technical
+subcategory: Rendering & Technical Quality
 impact: High
 influences:
   - Discovery & Crawling

@@ -5,6 +5,7 @@ slug: annuaires-sectoriels-et-listes-d-entreprise
 factor: Annuaires sectoriels et listes d’entreprise
 subtitle: Les annuaires sectoriels et les listes d’entreprises influencent-ils la visibilité dans les IA ?
 category: Authority & External Signals
+subcategory: Entity & Business Profiles
 impact: Medium
 influences:
   - Discovery & Crawling

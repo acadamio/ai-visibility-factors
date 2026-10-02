@@ -5,6 +5,7 @@ slug: experience-de-premiere-main
 factor: Expérience de première main
 subtitle: L’expérience directe influence-t-elle la visibilité dans les IA ?
 category: Content
+subcategory: Evidence & Originality
 impact: Medium
 influences:
   - Understanding & Retrieval

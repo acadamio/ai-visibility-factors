@@ -7,6 +7,7 @@ factor: Open Graph metadata
 subtitle: Does Open Graph metadata influence visibility in AI?
 
 category: Technical
+subcategory: Page Metadata & URL Signals
 impact: Low
 influences:
   - Understanding & Retrieval

@@ -7,6 +7,7 @@ factor:
 subtitle:
 
 category: # controlled list
+subcategory: # controlled list, belongs to category
 impact: # controlled list
 influences: # controlled list, multiple values allowed
 proof: # controlled list
