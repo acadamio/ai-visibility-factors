@@ -10,27 +10,35 @@ impact: High
 influences:
   - Understanding & Retrieval
   - Mention & Recommendation
-proof: Medium
+proof: High
 consensus: Strong
 status: Published
-last_reviewed: 2026-09-30
+last_reviewed: 2026-10-20
 ---
 
 ## De quoi s’agit-il ?
 
-La pertinence d'une requête est l'adéquation entre le sujet d'une page et le sujet de la question d'un utilisateur. L'alignement des intentions va plus loin : il demande si la page satisfait à ce que l'utilisateur essaie de faire, comme comprendre un concept, comparer les options, résoudre un problème ou prendre une décision d'achat. Une page peut répéter les mots de la requête sans toutefois comprendre le besoin qui les sous-tend. Par exemple, un aperçu du produit est une réponse faible à une question sur les conditions d’annulation, à moins qu’il n’énonce clairement ces conditions.
+La pertinence désigne l'adéquation sémantique entre le contenu d'une page et les questions ou requêtes auxquelles un système d'IA doit répondre. L'adéquation avec l'intention va plus loin : elle indique si la page satisfait ce que l'utilisateur cherche à accomplir, par exemple comprendre un concept, comparer des options, résoudre un problème ou prendre une décision d'achat.
+
+Les systèmes d'IA peuvent reformuler la question initiale en une ou plusieurs requêtes ou sous-requêtes avant de rechercher des sources. Une page n'a pas besoin de reprendre les mots exacts de l'utilisateur si son titre et son contenu traitent clairement du sujet et de l'intention sous-jacents.
 
 ## Détails de l’impact
 
-**Impact : Élevé.** Un système de récupération doit trouver des éléments pertinents pour la question avant de pouvoir les utiliser dans une réponse. Google décrit les fonctionnalités de l'IA comme récupérant les pages pertinentes de son index de recherche et affirme que ses systèmes peuvent comprendre la pertinence sans correspondance exacte de mots clés. Bing demande explicitement au contenu de satisfaire l'intention de l'utilisateur et de garder chaque URL concentrée sur un sujet principal pour le grounding. La pertinence a donc un chemin direct et plausible vers la sélection. Cela dépend toujours de la requête : même une page solide peut être omise lorsqu'une autre source répond mieux à un utilisateur particulier ou lorsque la fonctionnalité IA n'apparaît pas. [Guide d'optimisation de l'IA de Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr), [Guide des fonctionnalités d'IA de Google](https://developers.google.com/search/docs/appearance/ai-features?hl=fr) et [Conseils aux webmasters de Bing](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+**Impact : Élevé.** Pour une réponse fondée sur la recherche, un enchaînement possible est **question utilisateur → requête/sous-requête générée par l'IA → récupération de sources → sélection/citation des sources**. La pertinence intervient tôt : une page doit normalement être récupérée avant de pouvoir servir de source. La récupération fournit des candidates ; la sélection finale détermine lesquelles étayent la réponse. Les processus diffèrent selon les systèmes. [Guide des fonctionnalités d'IA de Google](https://developers.google.com/search/docs/appearance/ai-features?hl=fr).
+
+Chen et Koudas ont analysé 158 099 réponses d'IA et 468 037 citations issues de ChatGPT, Gemini et Perplexity dans deux marchés commerciaux. Au sein d'un même site, une meilleure adéquation sémantique des titres et des paragraphes avec les questions était globalement associée à davantage de citations ; les résultats sur les titres variaient selon le moteur. Dans leurs nouveaux essais via l'API de ChatGPT, la récupération pour les requêtes générées expliquait nettement plus de variation des citations entre pages d'un même site que les caractéristiques de page mesurées (32 % contre 2,8 %). Ces observations ne constituent pas une formule universelle de classement. [Mahe Chen et Nick Koudas, *What Drives AI Citations?* (2026), prépublication](https://arxiv.org/abs/2610.15033).
+
+La pertinence dépend de la requête. Même pertinente, une page peut ne pas être récupérée ou citée en raison d'autres signaux de récupération, de classement ou de sélection des sources ; la similarité sémantique ne détermine pas seule les citations. [Chen et Koudas](https://arxiv.org/abs/2610.15033).
 
 ## Détails des preuves et du consensus
 
-**Preuve : moyenne. Consensus : Fort** pour le principe de pertinence, tandis que l'effet de toute modification individuelle sur les citations de l'IA reste non quantifié. Google et Bing décrivent tous deux la pertinence du contenu et la satisfaction des besoins des utilisateurs comme étant au cœur de la recherche et de la récupération par l'IA. Google met également en garde contre la publication de pages pour chaque petite variante de requête dans le seul but de manipuler les réponses de l'IA ; plus de pages ne signifie pas automatiquement une meilleure couverture. Cela permet d'améliorer l'utilité d'une page appropriée plutôt que de multiplier les quasi-doublons. Il n’existe pas de score universel ni de nombre d’expressions permettant d’établir une correspondance d’intention, et les classements ou le nombre de citations peuvent changer pour de nombreuses raisons. [Guide d'optimisation de l'IA de Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr), [conseils sur le contenu utile](https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=fr) et [Consignes aux webmasters Bing](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+**Preuve : Élevée. Consensus : Fort.** La documentation des moteurs de recherche place régulièrement la pertinence et la satisfaction de l'intention utilisateur au cœur de la récupération. Google décrit explicitement la compréhension de la pertinence sans correspondance exacte de mots clés, tandis que Bing relie un contenu ciblé et adapté à l'intention à l'ancrage des réponses dans des sources. [Guide d'optimisation pour les fonctionnalités d'IA de Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr) et [Consignes Bing aux webmasters](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+
+Des recherches empiriques récentes apportent des éléments directs sur plusieurs moteurs de réponse IA, mais l'étude de Chen et Koudas est actuellement une **prépublication (preprint)**. Ses observations sur la pertinence ne prouvent pas qu'une modification de page cause une hausse des citations. Le niveau de preuve élevé concerne le principe général de pertinence, pas une recette d'optimisation démontrée. Les éléments disponibles soutiennent la pertinence sémantique et l'adéquation avec l'intention, pas la densité de mots clés ou la reprise d'expressions exactes. Aucun seuil universel de similarité ni aucune formule de rédaction n'ont été démontrés. [Chen et Koudas](https://arxiv.org/abs/2610.15033).
 
 ## Recommandation
 
-Identifiez les principales questions auxquelles chaque page importante devrait répondre. Lisez la page en tant que visiteur prévu : peut-il terminer la tâche ou doit-il rechercher à nouveau la réponse centrale ? Faites correspondre le titre, l'ouverture, les sections et les exemples de la page à son intention principale. Ajoutez des critères de décision manquants ou des détails pratiques lorsqu'ils font réellement partie de cette intention. Gardez les différentes intentions séparées lorsque les combiner pourrait dérouter les lecteurs. Utilisez un langage naturel et une terminologie pertinente, sans répéter mécaniquement les chaînes de requête. Vérifiez les résultats réels de la recherche et de l’IA pour comprendre les interprétations concurrentes, tout en préservant le jugement éditorial et l’exactitude factuelle.
+Identifiez les principales questions et intentions auxquelles chaque page doit répondre, ainsi que les questions connexes et les reformulations plausibles pour la recherche de sources. Rendez son sujet et son objectif clairs dans le titre, les premiers paragraphes, les intertitres et les sections pertinentes. Couvrez naturellement la terminologie, les entités, les comparaisons et les critères de décision nécessaires pour répondre à ces questions. Évitez de répéter mécaniquement des prompts ou des mots clés. Séparez les intentions sensiblement différentes lorsque leur combinaison diluerait le sujet ; ne créez pas de quasi-doublons pour de petites variantes de requête. Si utile, testez des questions représentatives dans plusieurs systèmes d'IA, en considérant les résultats comme des observations plutôt que des garanties.
 
 ## Plateformes IA
 
@@ -48,6 +56,9 @@ Identifiez les principales questions auxquelles chaque page importante devrait r
 
 ## Instructions d’audit
 
-1. Choisissez une page prioritaire et notez son public cible, sa tâche principale et trois questions représentatives.
-2. Lisez la page en regard de chaque question. Repérez où elle donne la réponse nécessaire et notez les détails manquants ou les sections qui s'éloignent de la tâche.
-3. Précisez le sujet de la page et améliorez ses réponses, puis testez les mêmes questions dans les outils de recherche et d'IA pertinents. Enregistrez les citations réelles séparément de votre évaluation de contenu.
+1. Identifiez le sujet principal, le public cible et l'intention principale de la page.
+2. Rédigez 3 à 5 questions utilisateur représentatives couvrant cette intention et des variantes proches.
+3. Pour chaque question, identifiez des requêtes connexes ou reformulées qu'un système d'IA pourrait utiliser pour trouver des sources. Traitez-les comme des hypothèses sauf observation directe.
+4. Vérifiez que le titre, les premiers paragraphes, les intertitres et les sections pertinentes couvrent clairement ces concepts et intentions. Ne jugez pas une page insuffisante parce qu'elle ne reprend pas les mots exacts d'une requête générée.
+5. Relevez les termes, entités, comparaisons, faits ou critères de décision manquants qui pourraient limiter la pertinence pour la récupération ou la complétude de la réponse.
+6. Si vous testez des systèmes d'IA, consignez le système, la date, la question et les observations de récupération/citation séparément de l'évaluation statique du contenu. Distinguez les citations visibles des preuves de récupération : une page non citée peut avoir été récupérée.

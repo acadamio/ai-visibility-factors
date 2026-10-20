@@ -12,28 +12,36 @@ impact: High
 influences:
   - Understanding & Retrieval
   - Mention & Recommendation
-proof: Medium
+proof: High
 consensus: Strong
 status: Published
 
-last_reviewed: 2026-09-30
+last_reviewed: 2026-10-20
 ---
 
 ## What is it?
 
-Query relevance is the fit between a page's subject and the topic of a user's question. Intent alignment goes further: it asks whether the page satisfies what the user is trying to do, such as understand a concept, compare options, solve a problem, or make a purchase decision. A page may repeat the query's words yet miss the need behind them. For example, a product overview is a weak answer to a question about cancellation terms unless it states those terms clearly. [Google's AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) and [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+Query relevance is the semantic fit between a page's content and the questions or search queries an AI system needs to answer. Intent alignment goes further: it asks whether the page satisfies what the user is trying to do, such as understand a concept, compare options, solve a problem, or make a purchase decision.
+
+AI systems may reformulate the original question into one or more search queries or sub-queries before retrieving sources. A page need not repeat the user's exact wording if its title and content clearly address the underlying topic and intent.
 
 ## Impact details
 
-**Impact: High.** A retrieval system must find material relevant to the question before it can use that material in an answer. Google describes AI features as retrieving relevant pages from its Search index and says its systems can understand relevance without exact keyword matches. Bing explicitly asks content to satisfy user intent and keep each URL focused on a primary topic for grounding. Relevance therefore has a direct, plausible path to selection. It is still query dependent: even a strong page may be omitted when another source better answers a particular user or when the AI feature does not appear. [Google's AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), [Google's AI feature guidance](https://developers.google.com/search/docs/appearance/ai-features), and [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+**Impact: High.** For search-grounded answers, a possible sequence is **user question → AI-generated query/sub-query → retrieval → source selection/citation**. Relevance matters early: a page normally has to be retrieved before it can be used as a source. Retrieval supplies candidates; final selection determines which support the answer. Processes differ across systems. [Google's AI feature guidance](https://developers.google.com/search/docs/appearance/ai-features).
+
+Chen and Koudas analysed 158,099 AI answers and 468,037 citations from ChatGPT, Gemini and Perplexity across two commercial markets. Within websites, stronger semantic alignment of titles and paragraphs with questions was associated with more citations overall; title results varied by engine. In their ChatGPT API replay, retrieval for generated queries explained substantially more within-website citation variation than measured page characteristics (32% versus 2.8%). These are observational findings, not a universal ranking formula. [Mahe Chen & Nick Koudas, *What Drives AI Citations?* (2026), preprint](https://arxiv.org/abs/2610.15033).
+
+Relevance remains query-dependent. Even a relevant page may fail to be retrieved or cited because of other retrieval, ranking or source-selection signals; semantic similarity alone does not determine citations. [Chen & Koudas](https://arxiv.org/abs/2610.15033).
 
 ## Proof & consensus details
 
-**Proof: Medium. Consensus: Strong** for the relevance principle, while the effect of any individual edit on AI citations remains unquantified. Google and Bing both describe content relevance and satisfying user needs as central to Search and AI retrieval. Google also warns against publishing pages for every small query variant merely to manipulate AI responses; more pages do not automatically mean better coverage. This supports improving an appropriate page's usefulness rather than multiplying near duplicates. There is no universal score or phrase count that establishes intent match, and rankings or citation counts can change for many reasons. [Google's AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), [helpful-content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), and [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+**Proof: High. Consensus: Strong.** Search-engine documentation consistently places relevance and satisfying user intent at the centre of retrieval. Google explicitly describes understanding relevance without exact keyword matches, while Bing connects focused, intent-satisfying content with grounding. [Google's AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) and [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+
+Recent empirical research adds direct evidence across multiple AI answer engines, but Chen and Koudas's study is currently a **preprint**, and its observational relevance findings do not establish that editing a page causes more citations. The High assessment concerns the broad relevance principle, not a proven optimization recipe. The evidence supports semantic relevance and intent alignment, not keyword density or exact phrase matching. No universal similarity threshold or wording formula has been demonstrated. [Chen & Koudas](https://arxiv.org/abs/2610.15033).
 
 ## Recommendation
 
-Identify the few real questions each important page should satisfy. Read the page as the intended visitor: can they complete the task, or must they search again for the central answer? Match the page's title, opening, sections, and examples to its primary intent. Add missing decision criteria or practical details when they are genuinely part of that intent. Keep different intents separate when combining them would confuse readers. Use natural language and relevant terminology, without repeating query strings mechanically. Check actual search and AI results to understand competing interpretations, but preserve editorial judgment and factual accuracy.
+Identify the main questions and intents each page should satisfy, including related questions and plausible retrieval reformulations. Make its topic and purpose clear in the title, opening paragraphs, headings and relevant content sections. Naturally cover the terminology, entities, comparisons and decision criteria needed to answer those questions. Avoid mechanically repeating prompts or keywords. Keep substantially different intents on separate pages when combining them would reduce topical focus; do not create near duplicates for minor query variations. When useful, test representative questions across multiple AI systems, treating results as observations rather than guarantees.
 
 ## AI platforms
 
@@ -51,6 +59,9 @@ Identify the few real questions each important page should satisfy. Read the pag
 
 ## Audit instructions
 
-1. Choose a priority page and write down its intended audience, main task, and three representative questions.
-2. Read the page against each question. Mark where it gives the needed answer, and note missing details or sections that lead away from the task.
-3. Improve the page's focus and answers, then test the same questions in relevant Search and AI tools. Record actual citations separately from your content assessment.
+1. Identify the page's main topic, target audience and primary intent.
+2. Write 3–5 representative user questions covering that intent and close variations.
+3. For each question, identify plausible related or reformulated queries an AI system could use to retrieve supporting sources. Treat them as hypotheses unless observed directly.
+4. Check whether the title, opening paragraphs, headings and relevant sections clearly cover those concepts and intents. Do not fail a page for lacking a generated query's exact wording.
+5. Note missing terminology, entities, comparisons, facts or decision criteria that could reduce retrieval relevance or answer completeness.
+6. If testing AI systems, record the system, date, question and observed retrieval/citations separately from the static content assessment. Distinguish visible citations from retrieval evidence; an uncited page may still have been retrieved.
