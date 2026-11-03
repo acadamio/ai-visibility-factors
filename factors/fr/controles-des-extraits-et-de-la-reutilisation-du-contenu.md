@@ -13,12 +13,12 @@ influences:
 proof: High
 consensus: Strong
 status: Published
-last_reviewed: 2026-09-30
+last_reviewed: 2026-11-03
 ---
 
 ## De quoi s’agit-il ?
 
-Les contrôles de réutilisation des extraits et du contenu sont des instructions au niveau de la page ou de la section limitant ce que les plateformes qui les prennent en charge peuvent afficher ou utiliser à partir d'une ressource. Les exemples incluent `nosnippet`, `max-snippet`, `data-nosnippet` et l’interprétation de Microsoft liée à l’IA de `noarchive` et `nocache`.
+Les contrôles de réutilisation des extraits et du contenu sont des instructions au niveau de la page ou de la section limitant ce que les plateformes qui les prennent en charge peuvent afficher ou utiliser à partir d'une ressource. Les exemples incluent `nosnippet`, `max-snippet`, `data-nosnippet` et la préférence Microsoft `ai-grounding` au niveau de la page, annoncée le 30 octobre 2026, qui remplacera progressivement son usage de `noarchive` et `nocache` pour l’IA. [Annonce Microsoft](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/).
 
 Ces contrôles répondent à une question différente de celle de l'indexabilité : une page peut rester visible alors que certaines utilisations de son contenu sont restreintes. La signification exacte dépend de la plateforme. Un nom de directive familier ne doit pas être traité comme une politique universelle en matière d’IA.
 
@@ -37,7 +37,9 @@ Google documente ces règles :
 
 Les conseils d'IA de Google incluent des contrôles d'extraits parmi les moyens de limiter les informations dans ses fonctionnalités Search AI. L’éligibilité des liens de référence nécessite une page indexée éligible pour un extrait. [Guide des fonctionnalités d'IA de Google](https://developers.google.com/search/docs/appearance/ai-features?hl=fr).
 
-Les directives actuelles de Microsoft indiquent que `NOARCHIVE` empêche l'utilisation du contenu dans les réponses Copilot et les résultats grounding ; `NOCACHE` limite Copilot à l'URL, au titre et à l'extrait. Ils décrivent `NOSNIPPET` et `DATA-NOSNIPPET` comme des restrictions de sous-titres susceptibles de réduire la qualité des citations. [Consignes aux webmasters Bing](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+Les anciennes directives de Microsoft indiquent que `NOARCHIVE` empêche l'utilisation du contenu dans les réponses Copilot et les résultats grounding ; `NOCACHE` limite Copilot à l'URL, au titre et à l'extrait. Ils décrivent `NOSNIPPET` et `DATA-NOSNIPPET` comme des restrictions de sous-titres susceptibles de réduire la qualité des citations. [Consignes aux webmasters Bing](https://www.bing.com/webmasters/help/bing-webmaster-guidelines-30fba23a).
+
+Microsoft commencera à appliquer AI Grounding le **1er février 2027**, au fil des explorations des pages. `Allow` est la valeur par défaut ; `DisallowExtended` autorise le grounding dans les expériences exploitées par Microsoft mais exclut ses services de grounding fournis à des tiers ; `Disallow` interdit cet usage. Microsoft prévient que les restrictions réduisent la visibilité IA. Ces préférences ne changent pas l’éligibilité aux résultats Bing traditionnels et sont indépendantes d’AI Training. [Annonce Microsoft](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/).
 
 Les influences sélectionnées reflètent une interprétation éditoriale : **Comprendre et récupérer** couvre le matériel qui peut entrer dans les pipelines de réponses pris en charge ; **Mention et recommandation** couvre les effets possibles des citations en aval. Ces instructions ne fournissent pas de mécanisme pour commander une recommandation positive.
 
@@ -47,7 +49,9 @@ Les influences sélectionnées reflètent une interprétation éditoriale : **C
 
 **Consensus : Fort sur l'existence et l'importance de ces contrôles dans leur portée documentée.** Cela ne veut pas dire que tous les fournisseurs reconnaissent la même syntaxe, ni que des expériences indépendantes ont établi une conformité universelle. Les sources examinées conviennent que les éditeurs peuvent restreindre certaines utilisations ; les différences de mise en œuvre sont des différences de produits plutôt que des preuves contradictoires sur une règle partagée.
 
-L'annonce originale de Microsoft de 2023 précisait que, lorsque `NOCACHE` et `NOARCHIVE` sont présents, il traite la combinaison comme `NOCACHE`. Il a également distingué les restrictions d’entraînement prospectives de l'affichage des réponses. Ces détails historiques sont importants lors du diagnostic des paramètres hérités ; les lignes directrices les plus récentes fournissent la description générale actuelle mais ne reformulent pas chaque règle de combinaison. [Annonce originale de Microsoft](https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat).
+L'annonce originale de Microsoft de 2023 précisait que, lorsque `NOCACHE` et `NOARCHIVE` sont présents, il traite la combinaison comme `NOCACHE`. Il a également distingué les restrictions d’entraînement prospectives de l'affichage des réponses. Ces détails historiques sont importants lors du diagnostic des paramètres hérités ; il s’agit du comportement historique, et non de l’interprétation de la nouvelle préférence AI Grounding. [Annonce originale de Microsoft](https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat).
+
+**Comportement annoncé, pas encore un déploiement observé :** l’annonce Microsoft du 30 octobre 2026 et la [FAQ Bing Webmaster Tools](https://www.bing.com/webmasters/help/new-ai-preferences-2t1cc16d) documentent la portée, la syntaxe et la transition. À la date de cette revue, l’application commencera le 1er février 2027 ; ces sources établissent la politique annoncée, pas une application vérifiée indépendamment.
 
 Aucune étude citée ne mesure une augmentation universelle des citations suite à la suppression de ces contrôles. Les preuves ne montrent pas non plus qu'un paramètre efface les informations précédemment apprises, empêche les descriptions tierces de votre entreprise ou régit chaque récupération demandée par l'utilisateur. Évitez de considérer une seule réponse réussie ou une citation manquante comme une expérience de conformité.
 
@@ -57,6 +61,8 @@ Définissez le compromis prévu avant l'édition : la découvrabilité publique
 
 Auditez les modèles partagés avant les pages individuelles. Un paramètre existant lié au cache mérite d'être examiné car sa signification diffère entre Google et Microsoft. Enregistrez ensemble le fournisseur, la directive, le contenu concerné et le résultat souhaité ; une case à cocher générique « IA autorisée » masque les différences significatives.
 
+Pour Microsoft, choisissez AI Grounding séparément de l’entraînement et publiez la préférence par page via une balise méta Bingbot ou un en-tête HTTP. Il n’existe pas de préférence de grounding dans robots.txt. Pour conserver les restrictions de grounding existantes, les sites utilisant `NOARCHIVE`/`NOCACHE` au 15 décembre 2026 doivent publier les préférences des pages et enregistrer une préférence temporaire dans Bing Webmaster Tools avant le 1er mars 2027. Après cette date, les anciennes directives ne vaudront plus comme préférences d’entraînement ou de grounding. Le choix temporaire de grounding expire lorsque la réexploration découvre la nouvelle préférence de la page ou le 30 septembre 2027, selon la première échéance. [Guide de transition](https://www.bing.com/webmasters/help/new-ai-preferences-2t1cc16d).
+
 Préférez les exclusions sélectives lorsqu’un seul passage doit être omis. Bing prend spécifiquement en charge le maintien du reste d'une page disponible lorsque les sections sont marquées.
 
 Ne sélectionnez pas de limite d'extraits numérique comme astuce de classement IA supposée. Même pour les extraits ordinaires, Google ne donne pas une longueur universellement suffisante, et une faible valeur ne garantit pas l'exclusion. Cette fonctionnalité est distincte des AI Overviews, elle ne constitue donc pas la preuve d’un nombre optimal de caractères IA.
@@ -65,7 +71,7 @@ Ne sélectionnez pas de limite d'extraits numérique comme astuce de classement 
 
 **Fonctionnalités de Google Search AI :** utilisez les commandes de recherche documentées ; ne les extrapolez pas à tous les services Gemini. Google recommande de vérifier l'implémentation visible par le robot et d'autoriser la réexploration après les modifications. [Google](https://developers.google.com/search/docs/appearance/ai-features?hl=fr).
 
-**Bing et Copilot :** évaluent les règles de Microsoft de manière indépendante. Ses orientations pour 2023 indiquent que `NOARCHIVE` exclut le contenu et les liens des réponses Bing Chat tandis que la présence normale dans la recherche peut rester ; `NOCACHE` autorise une référence restreinte. Interprétez cela avec les directives Copilot et le grounding actuelles ci-dessus. [Microsoft](https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat).
+**Bing et Copilot :** AI Grounding régit l’utilisation dans les réponses générées, indépendamment de l’indexation et du classement traditionnels. Utilisez par exemple `<meta name="Bingbot" content="ai-grounding:disallow">` ou `X-Robots-Tag: Bingbot: ai-grounding:disallow` ; choisissez `ai-grounding:disallowextended` pour conserver le grounding exploité par Microsoft tout en excluant ses services de grounding destinés aux tiers. L’absence de préférence vaut `Allow`. Les nouvelles préférences s’appliquent à l’exploration à partir du 1er février 2027 ; leur publication seule ne les active pas. Elles remplacent progressivement `NOARCHIVE`/`NOCACHE` pour les usages IA, sans remplacer leur sens d’origine pour la recherche traditionnelle. Une préférence `Allow` ne contourne pas un blocage de l’exploration par Bingbot. [Guide de mise en œuvre Microsoft](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/).
 
 **Gemini :** `Google-Extended` contrôle l’entraînement de modèle spécifiée et les utilisations de grounding. Il est distinct des contrôles d'extrait de recherche de Google. Ne supposez donc pas que ces contrôles ont le même effet dans les applications Gemini. [Référence du robot d'exploration de Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers?hl=fr#google-extended).
 
@@ -80,6 +86,7 @@ Ne sélectionnez pas de limite d'extraits numérique comme astuce de classement 
 1. **Collectez les URL représentatives.** Sélectionnez les pages dont l'intégralité du contenu doit être réutilisable et les pages avec des restrictions intentionnelles. Notez le résultat souhaité avant d’évaluer la conformité.
 2. **Inspectez les deux emplacements.** Vérifiez les balises méta des robots HTML et les en-têtes de réponse `X-Robots-Tag`.
 3. **Inspectez les limites de la section.** Recherchez `data-nosnippet` et vérifiez la quantité de contenu qu'il enveloppe.
-4. **Interprétez selon le fournisseur.** Enregistrez séparément `nosnippet`, les limites numériques et la combinaison `noarchive`/`nocache` de Microsoft. Signalez les restrictions intentionnelles distinctement des erreurs de publication.
+4. **Interprétez selon le fournisseur.** Enregistrez séparément `nosnippet`, les limites numériques, les anciennes directives Microsoft `noarchive`/`nocache` et les valeurs `ai-grounding` des pages ; distinguez grounding, entraînement et éligibilité à la recherche traditionnelle. Signalez les restrictions intentionnelles distinctement des erreurs de publication.
 5. **Vérifiez la répartition des modèles.** Comparez au moins une page de chaque type de contenu et langue principaux. Une page d’accueil correcte ne garantit pas que les modèles d’articles ou de documents sont corrects.
-6. **Validez après le traitement.** Avec l'accès propriétaire, comparez les dates de mise en œuvre avec la dernière heure d'exploration. Suivez séparément les extraits et les citations résultants ; un changement de configuration ne constitue pas la preuve d’un gain de visibilité.
+6. **Vérifiez la transition Microsoft.** Consignez l’usage éventuel des anciennes directives au 15 décembre 2026, la nouvelle préférence de la page et le choix temporaire Bing Webmaster Tools si applicable. Vérifiez l’échéance du 1er mars et l’expiration du 30 septembre dans la [FAQ officielle](https://www.bing.com/webmasters/help/new-ai-preferences-2t1cc16d).
+7. **Validez après le traitement.** Avec l'accès propriétaire, comparez les dates de mise en œuvre avec la dernière heure d'exploration. Suivez séparément les extraits et les citations résultants ; un changement de configuration ne constitue pas la preuve d’un gain de visibilité.
